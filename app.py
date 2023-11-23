@@ -1,6 +1,6 @@
 import streamlit as st
 st.header('this is my spoof app')
-audio_file = open('generated_audio_epoch_10_sample_4.wav', 'rb')
+audio_file = open('generated_audio_epoch_0_sample_0.ogg', 'rb')
 audio_bytes = audio_file.read()
 
 st.audio(audio_bytes, format='audio/ogg')
