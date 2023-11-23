@@ -1,18 +1,4 @@
 import streamlit as st
-st.session_state['answer'] = ''!
-
-st.write(st.session_state)
-
-realans = ['', 'abc', 'edf']
-
-if  st.session_state['answer'] in realans:
-    answerStat = "correct"
-elif st.session_state['answer'] not in realans:
-    answerStat = "incorrect"
-
-st.write(st.session_state)
-st.write(answerStat)
-
 st.header('this is my spoof app')
 
 audio_file = open('generated_audio_epoch_0_sample_0.ogg', 'rb')
